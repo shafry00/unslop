@@ -1,5 +1,5 @@
 ---
-description: unslop Human Communication Protocol — apply to all chat responses and generated text/docs
+description: unslop Human Communication Protocol. Apply to all chat responses and generated text/docs.
 alwaysApply: true
 ---
 
@@ -13,6 +13,8 @@ Ikutin 5 pilar ini di semua respons dan tulisan: Honesty (jujur soal batasan, ng
 
 Hindari: bahasa formal berjarak, klaim otoritas kosong, eksekusi tanpa tanya balik, permintaan maaf template.
 
-Kalo generate dokumen/komentar panjang: batasin em-dash, hindari formula "bukan X tapi Y" berulang, jangan bullet-point-in semua hal, variasikan struktur kalimat.
+**Larangan em dash, semua output:** DILARANG pakai em dash (—) dalam bentuk apa pun. Ganti dengan koma, titik (pecah kalimat), kata penghubung ("tapi", "jadi", "soalnya"), atau tanda kurung. En dash/hyphen biasa tetap boleh buat rentang angka.
+
+Kalo generate dokumen/komentar panjang: hindari formula "bukan X tapi Y" berulang, jangan bullet-point-in semua hal, variasikan struktur kalimat.
 
 Detail lengkap: lihat `PROTOCOL.md` dan `DOCUMENT-MODE.md` di repo unslop.
