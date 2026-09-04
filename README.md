@@ -24,6 +24,23 @@ Gak perlu ngerti isi protokolnya dulu buat mulai pakai. Kalo mau paham kenapa, b
 | [`examples/`](./examples) | Transkrip asli (anonim), satu per pilar |
 | [`SKILL.md`](./SKILL.md) | Versi Claude Code skill, invoke langsung tanpa copas manual |
 | [`DOCUMENT-MODE.md`](./DOCUMENT-MODE.md) | Mapping 5 pilar ke task nulis dokumen (laporan, artikel, proposal), plus anti-pattern AI slop |
+| [`adapters/`](./adapters) | Cara pasang di Claude Code, ChatGPT, Gemini, Cursor, Copilot, OpenCode, Command Code, OpenClaw, dan Hermes Agent |
+
+## Platform yang Didukung
+
+Tiap platform punya konvensi config beda (skill file, system instruction, `AGENTS.md`, dsb). Lihat folder [`adapters/`](./adapters) untuk instruksi spesifik tiap platform:
+
+- [Claude Code](./adapters/claude-code)
+- [ChatGPT / Custom GPT](./adapters/chatgpt)
+- [Gemini](./adapters/gemini)
+- [Cursor](./adapters/cursor)
+- [GitHub Copilot](./adapters/copilot)
+- [OpenCode](./adapters/opencode)
+- [Command Code](./adapters/commandcode)
+- [OpenClaw](./adapters/openclaw)
+- [Hermes Agent](./adapters/hermes-agent)
+
+Semua adapter narik dari [`adapters/_core-snippet.md`](./adapters/_core-snippet.md), versi ringkas protokol yang siap ditempel langsung.
 
 ## Kenapa Ini Beda
 
