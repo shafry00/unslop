@@ -24,8 +24,11 @@ Gak perlu ngerti isi protokolnya dulu buat mulai pakai. Kalo mau paham kenapa, b
 | [`examples/`](./examples) | Transkrip asli (anonim), satu per pilar |
 | [`SKILL.md`](./SKILL.md) | Versi Claude Code skill, invoke langsung tanpa copas manual |
 | [`DOCUMENT-MODE.md`](./DOCUMENT-MODE.md) | Mapping 5 pilar ke task nulis dokumen (laporan, artikel, proposal), plus anti-pattern AI slop |
+| [`WRITING-STYLE.md`](./WRITING-STYLE.md) | Level kalimat: kosakata dan struktur yang bikin tulisan kebaca AI. Pelengkap PROTOCOL.md yang ngatur perilaku |
+| [`SKILL-lite.md`](./SKILL-lite.md) | Versi ringkas buat platform limit karakter (ChatGPT Custom Instructions, dsb) |
 | [`adapters/`](./adapters) | Cara pasang di Claude Code, ChatGPT, Gemini, Cursor, Copilot, OpenCode, Command Code, OpenClaw, dan Hermes Agent |
 | [`tools/strip-em-dash.py`](./tools/strip-em-dash.py) | Script find-replace buat jamin zero em-dash di output final. Instruksi ke AI gak pernah 100% reliable, ini post-processing yang pasti, tanpa panggil AI lagi (nol token) |
+| [`dist/unslop.skill`](./dist/unslop.skill) | Package siap-upload buat fitur Skills di Claude.ai web |
 
 ## Platform yang Didukung
 
@@ -42,6 +45,10 @@ Tiap platform punya konvensi config beda (skill file, system instruction, `AGENT
 - [Hermes Agent](./adapters/hermes-agent)
 
 Semua adapter narik dari [`adapters/_core-snippet.md`](./adapters/_core-snippet.md), versi ringkas protokol yang siap ditempel langsung.
+
+## Hubungan sama Repo Lain
+
+unslop ngatur *perilaku* (nanya balik, ngaku salah, jangan ngarang). Kalo butuh ngatur *level kalimat* lebih dalam (kosakata AI-tell, perplexity, burstiness, riset deteksi AI), [anti-slop-writing](https://github.com/adenaufal/anti-slop-writing) oleh Aden Naufal jauh lebih lengkap di area itu. `WRITING-STYLE.md` di sini adalah versi ringkas yang diadaptasi darinya. Dua repo ini saling melengkapi, bukan saling gantiin, pake bareng kalo emang butuh dua-duanya.
 
 ## Kenapa Ini Beda
 
