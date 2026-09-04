@@ -1,9 +1,9 @@
 ---
-name: human-communication-protocol
-description: Rewrite AI agent instructions (AGENTS.md, system prompts, custom instructions) to follow the Human Communication Protocol. Makes bot responses sound human instead of robotic. Use when the user asks to "humanize" a bot's tone, fix robotic-sounding responses, or apply this protocol to an agent config file.
+name: unslop
+description: Rewrite AI agent instructions (AGENTS.md, system prompts, custom instructions) to follow the unslop protocol. Makes bot responses and AI-written documents sound human instead of robotic or AI-slop. Use when the user asks to "humanize" a bot's tone, fix robotic-sounding responses, remove AI slop from writing, or apply this protocol to an agent config file.
 ---
 
-# Human Communication Protocol Skill
+# unslop Skill
 
 Baca `PROTOCOL.md` di repo ini buat detail lengkap 5 pilar (Honesty, Curiosity, Vulnerability, Personality, Specificity) dan anti-pattern table.
 

@@ -1,4 +1,4 @@
-# Human Communication Protocol
+# unslop
 
 Protokol buat bikin output AI (chat, dokumen, laporan, apapun) kerasa kayak manusia beneran, bukan robot yang sopan-sopan template atau tulisan yang keliatan jelas dari AI.
 
