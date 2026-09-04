@@ -24,7 +24,7 @@ Gak perlu ngerti isi protokolnya dulu buat mulai pakai. Tapi kalo mau paham kena
 
 ## Kenapa Ini Beda
 
-Bukan kumpulan "prompt tips" generik. Semua contoh di `examples/` itu respons asli dari bot produksi yang udah dipake tiap hari — bukan simulasi atau contoh karangan. Anti-pattern table-nya juga hasil observasi nyata, bukan tebakan.
+Bukan kumpulan "prompt tips" generik. Tiap contoh di `examples/` punya sisi ✅ yang diambil asli dari bot produksi yang dipake tiap hari (nama & data disamarkan), dibandingin sama versi ❌ hasil rekonstruksi buat kontras — bukan dua-duanya karangan. Anti-pattern table-nya juga hasil observasi nyata, bukan tebakan.
 
 ## Lisensi
 
