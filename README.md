@@ -1,31 +1,31 @@
 # Human Communication Protocol
 
-Protokol buat bikin AI agent (chatbot, asisten WhatsApp, apapun) jawabnya kayak manusia beneran — bukan robot yang sopan-sopan template.
+Protokol buat bikin AI agent (chatbot, asisten WhatsApp, apapun) jawabnya kayak manusia beneran, bukan robot yang sopan-sopan template.
 
-Lahir dari pelatihan bertahap sebuah bot produksi (asisten WhatsApp harian, ratusan interaksi asli, Bahasa Indonesia informal), bukan teori di atas kertas.
+Lahir dari pelatihan bertahap sebuah bot produksi: asisten WhatsApp harian, ratusan interaksi asli, Bahasa Indonesia informal. Bukan teori di atas kertas.
 
 ## Cara Pakai (30 detik)
 
 1. Copy isi [`REWRITE-PROMPT.md`](./REWRITE-PROMPT.md)
-2. Paste ke AI kamu (Claude, ChatGPT, siapapun) bareng file instruksi agent kamu sekarang (`AGENTS.md`, `SYSTEM_PROMPT.md`, `SOUL.md`, custom instructions — apapun namanya)
-3. AI bakal rewrite instruksi kamu supaya agent-nya otomatis ngikutin protokol ini
+2. Paste ke AI kamu (Claude, ChatGPT, siapapun) bareng file instruksi agent kamu sekarang. `AGENTS.md`, `SYSTEM_PROMPT.md`, `SOUL.md`, custom instructions, apapun namanya.
+3. AI bakal rewrite instruksi kamu supaya agent-nya otomatis ngikutin protokol ini.
 
-Gak perlu ngerti isi protokolnya dulu buat mulai pakai. Tapi kalo mau paham kenapa, baca [`PROTOCOL.md`](./PROTOCOL.md).
+Gak perlu ngerti isi protokolnya dulu buat mulai pakai. Kalo mau paham kenapa, baca [`PROTOCOL.md`](./PROTOCOL.md).
 
 ## Isi Repo
 
 | File | Fungsi |
 |---|---|
-| [`PROTOCOL.md`](./PROTOCOL.md) | 5 pilar inti + anti-pattern table |
+| [`PROTOCOL.md`](./PROTOCOL.md) | 5 pilar inti dan anti-pattern table |
 | [`REWRITE-PROMPT.md`](./REWRITE-PROMPT.md) | Meta-prompt siap-copas buat rewrite instruksi agent kamu |
-| [`CHECKLIST.md`](./CHECKLIST.md) | Self-check 5 poin — bisa dipake bot buat ngecek jawabannya sendiri |
-| [`examples/`](./examples) | Transcript asli (anonim) — robotik vs hasil protokol |
-| [`SKILL.md`](./SKILL.md) | Versi Claude Code skill — invoke langsung tanpa copas manual |
+| [`CHECKLIST.md`](./CHECKLIST.md) | Self-check 5 poin, bisa dipake bot buat ngecek jawabannya sendiri |
+| [`examples/`](./examples) | Transkrip asli (anonim), satu per pilar |
+| [`SKILL.md`](./SKILL.md) | Versi Claude Code skill, invoke langsung tanpa copas manual |
 
 ## Kenapa Ini Beda
 
-Bukan kumpulan "prompt tips" generik. Tiap contoh di `examples/` punya sisi ✅ yang diambil asli dari bot produksi yang dipake tiap hari (nama & data disamarkan), dibandingin sama versi ❌ hasil rekonstruksi buat kontras — bukan dua-duanya karangan. Anti-pattern table-nya juga hasil observasi nyata, bukan tebakan.
+Bukan kumpulan tips prompting generik. Tiap contoh di `examples/` punya sisi ✅ yang diambil asli dari bot produksi yang dipake tiap hari (nama dan data disamarkan). Sisi ❌-nya rekonstruksi buat kontras, dan itu ditandain jelas, jadi gak ada klaim palsu soal asal-usulnya. Anti-pattern table juga hasil observasi nyata, bukan tebakan.
 
 ## Lisensi
 
-MIT — pake, modif, sebarin bebas.
+MIT. Pake, modif, sebarin bebas.
