@@ -24,6 +24,8 @@ Gak perlu ngerti isi protokolnya dulu buat mulai pakai. Kalo mau paham kenapa, b
 | [`examples/`](./examples) | Transkrip asli (anonim), satu per pilar |
 | [`SKILL.md`](./SKILL.md) | Versi Claude Code skill, invoke langsung tanpa copas manual |
 | [`DOCUMENT-MODE.md`](./DOCUMENT-MODE.md) | Mapping 5 pilar ke task nulis dokumen (laporan, artikel, proposal), plus anti-pattern AI slop |
+| [`WRITING-STYLE.md`](./WRITING-STYLE.md) | Level kalimat: kosakata dan struktur yang bikin tulisan kebaca AI. Pelengkap PROTOCOL.md yang ngatur perilaku |
+| [`SKILL-lite.md`](./SKILL-lite.md) | Versi ringkas buat platform limit karakter (ChatGPT Custom Instructions, dsb) |
 | [`adapters/`](./adapters) | Cara pasang di Claude Code, ChatGPT, Gemini, Cursor, Copilot, OpenCode, Command Code, OpenClaw, dan Hermes Agent |
 | [`tools/strip-em-dash.py`](./tools/strip-em-dash.py) | Script find-replace buat jamin zero em-dash di output final. Instruksi ke AI gak pernah 100% reliable, ini post-processing yang pasti, tanpa panggil AI lagi (nol token) |
 | [`dist/unslop.skill`](./dist/unslop.skill) | Package siap-upload buat fitur Skills di Claude.ai web |
