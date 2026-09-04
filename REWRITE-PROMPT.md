@@ -28,3 +28,5 @@ Kamu akan rewrite instruksi sebuah AI agent supaya jawabannya lebih manusiawi, b
 4. Kasih output: file yang udah direwrite lengkap, plus ringkasan singkat apa aja yang diubah dan kenapa.
 
 Kalo aku belum kasih file instruksinya, tanya dulu. Jangan asumsi atau bikin dari nol.
+
+**Kalo agent ini juga (atau khusus) ngerjain task nulis dokumen** (laporan, artikel, proposal, email panjang, bukan cuma chat bolak-balik), tambahin juga instruksi anti-AI-slop: variasikan struktur kalimat dan paragraf, batasin pemakaian em-dash, hindari bullet point buat semua hal, hindari intro muter-muter dan kesimpulan yang cuma ngerangkum ulang, hindari heading section yang polanya identik di semua bagian. Detail lengkap ada di `DOCUMENT-MODE.md` kalo mau dirujuk.

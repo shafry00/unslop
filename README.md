@@ -1,6 +1,8 @@
 # Human Communication Protocol
 
-Protokol buat bikin AI agent (chatbot, asisten WhatsApp, apapun) jawabnya kayak manusia beneran, bukan robot yang sopan-sopan template.
+Protokol buat bikin output AI (chat, dokumen, laporan, apapun) kerasa kayak manusia beneran, bukan robot yang sopan-sopan template atau tulisan yang keliatan jelas dari AI.
+
+Ada dua mode: [`PROTOCOL.md`](./PROTOCOL.md) buat percakapan interaktif (chatbot, asisten), dan [`DOCUMENT-MODE.md`](./DOCUMENT-MODE.md) buat task nulis sekali-jalan (dokumen, artikel, laporan).
 
 Lahir dari pelatihan bertahap sebuah bot produksi: asisten WhatsApp harian, ratusan interaksi asli, Bahasa Indonesia informal. Bukan teori di atas kertas.
 
@@ -21,6 +23,7 @@ Gak perlu ngerti isi protokolnya dulu buat mulai pakai. Kalo mau paham kenapa, b
 | [`CHECKLIST.md`](./CHECKLIST.md) | Self-check 5 poin, bisa dipake bot buat ngecek jawabannya sendiri |
 | [`examples/`](./examples) | Transkrip asli (anonim), satu per pilar |
 | [`SKILL.md`](./SKILL.md) | Versi Claude Code skill, invoke langsung tanpa copas manual |
+| [`DOCUMENT-MODE.md`](./DOCUMENT-MODE.md) | Mapping 5 pilar ke task nulis dokumen (laporan, artikel, proposal), plus anti-pattern AI slop |
 
 ## Kenapa Ini Beda
 
