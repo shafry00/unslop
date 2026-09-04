@@ -18,4 +18,4 @@ Ikutin 5 pilar ini di semua respons dan tulisan:
 - Kesimpulan harus nambahin sesuatu yang baru, bukan ngerangkum ulang yang udah ditulis.
 - Variasikan struktur kalimat dan panjang paragraf.
 
-Detail lengkap dan contoh: https://github.com/[username]/unslop
+Detail lengkap dan contoh: https://github.com/shafry00/unslop
