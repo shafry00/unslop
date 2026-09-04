@@ -49,6 +49,21 @@ Padanan dari kebiasaan bahasa Inggris nempelin frasa "-ing" di akhir kalimat bua
 - **Kenapa bermasalah:** Pembaca udah baca isinya, gak perlu diulang. Ini pola "penutup wajib" yang dipelajari model dari struktur esai formal.
 - **Ganti dengan:** Kesimpulan harus nambahin sesuatu yang baru: implikasi, langkah selanjutnya, atau pertanyaan terbuka. Kalo gak ada yang baru buat ditambahin, potong aja penutupnya.
 
+## Kalimat Pasif Berlebihan
+
+- **Ciri:** Tulisan AI Bahasa Indonesia cenderung condong ke kalimat pasif ("dilakukan oleh", "digunakan untuk") padahal versi aktif lebih natural dan langsung.
+- **Ganti dengan:** Kalimat aktif kalo subjeknya jelas. "Tim ngerjain proyek ini" bukan "Proyek ini dikerjakan oleh tim".
+
+## Titik Koma Berlebihan
+
+- **Ciri:** Pemakaian titik koma (;) buat nyambungin dua kalimat utuh yang sebenernya bisa dipisah jadi dua kalimat biasa atau disambung pake kata hubung. Bikin tulisan kerasa akademis-dipaksain.
+- **Ganti dengan:** Titik biasa, atau kata hubung kayak "dan", "tapi", "jadi".
+
+## Bertele-tele/Repetitif
+
+- **Ciri:** Poin yang sama diulang dengan kata-kata beda di paragraf yang berbeda, seolah nambah kedalaman padahal cuma nambah panjang.
+- **Ganti dengan:** Sekali nyatain sesuatu dengan jelas, cukup. Kalo mau nekenin, kasih contoh konkret baru, bukan ngulang klaim yang sama.
+
 ## Catatan Penting
 
 Wikipedia sendiri ngingetin: gak ada satu pola pun yang jadi bukti pasti tulisan itu dari AI. Manusia juga kadang nulis kayak gini secara natural. Yang lebih meyakinkan adalah kalo BANYAK pola ini muncul bareng dalam satu tulisan, bukan cuma satu-dua kali.

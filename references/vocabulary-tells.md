@@ -28,6 +28,13 @@ Pola yang sama muncul di tulisan AI Bahasa Indonesia, walau kosakatanya beda:
 
 **Penanda atribusi samar:** "banyak yang bilang", "penelitian menunjukkan", "berbagai pihak menilai" tanpa nama/sumber spesifik. Ini pola yang sama kayak "some say" di Bahasa Inggris, yang menyamarkan klaim seolah-olah punya dukungan luas padahal gak ada sumber jelas.
 
+## Pembuka Klise Bahasa Indonesia
+
+Pola yang sering muncul spesifik di tulisan AI Bahasa Indonesia (diliput beberapa media, termasuk Tempo dan CNN Indonesia, sebagai ciri umum yang gampang dikenali pembaca):
+
+- "Dalam era digital ini,", "Di zaman yang serba modern ini,", "Seiring dengan perkembangan teknologi,". Semua ini basa-basi waktu yang gak nambah informasi.
+- Contoh transformasi: "Dalam era digital, banyak individu memanfaatkan teknologi kecerdasan buatan untuk menghasilkan konten" jadi kaku dan berjarak. Versi natural: "Sekarang, banyak orang pakai AI buat nulis artikel."
+
 ## Kalo Ragu
 
 Baca ulang kalimatnya. Kalo kata itu dihapus dan makna kalimatnya gak berubah, kata itu filler, hapus. Kalo diganti sama kata yang lebih konkret (angka, nama, aksi spesifik) kalimatnya jadi lebih jelas, itu tandanya kata aslinya emang lemah.

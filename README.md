@@ -25,7 +25,7 @@ Gak perlu ngerti isi protokolnya dulu buat mulai pakai. Kalo mau paham kenapa, b
 | [`SKILL.md`](./SKILL.md) | Versi Claude Code skill, invoke langsung tanpa copas manual |
 | [`DOCUMENT-MODE.md`](./DOCUMENT-MODE.md) | Mapping 5 pilar ke task nulis dokumen (laporan, artikel, proposal), plus anti-pattern AI slop |
 | [`WRITING-STYLE.md`](./WRITING-STYLE.md) | Level kalimat: kosakata dan struktur yang bikin tulisan kebaca AI. Pelengkap PROTOCOL.md yang ngatur perilaku |
-| [`references/`](./references) | Breakdown lengkap kosakata per era model dan pola struktur, sumber [Wikipedia:Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) |
+| [`references/`](./references) | Breakdown kosakata, pola struktur, dan cara kerja detektor AI (perplexity/burstiness/stilometri), sumber [Wikipedia:Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) dan riset publik lain |
 | [`SKILL-lite.md`](./SKILL-lite.md) | Versi ringkas buat platform limit karakter (ChatGPT Custom Instructions, dsb) |
 | [`adapters/`](./adapters) | Cara pasang di Claude Code, ChatGPT, Gemini, Cursor, Copilot, OpenCode, Command Code, OpenClaw, dan Hermes Agent |
 | [`tools/strip-em-dash.py`](./tools/strip-em-dash.py) | Script find-replace buat jamin zero em-dash di output final. Instruksi ke AI gak pernah 100% reliable, ini post-processing yang pasti, tanpa panggil AI lagi (nol token) |
