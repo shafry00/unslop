@@ -25,6 +25,7 @@ Gak perlu ngerti isi protokolnya dulu buat mulai pakai. Kalo mau paham kenapa, b
 | [`SKILL.md`](./SKILL.md) | Versi Claude Code skill, invoke langsung tanpa copas manual |
 | [`DOCUMENT-MODE.md`](./DOCUMENT-MODE.md) | Mapping 5 pilar ke task nulis dokumen (laporan, artikel, proposal), plus anti-pattern AI slop |
 | [`adapters/`](./adapters) | Cara pasang di Claude Code, ChatGPT, Gemini, Cursor, Copilot, OpenCode, Command Code, OpenClaw, dan Hermes Agent |
+| [`tools/strip-em-dash.py`](./tools/strip-em-dash.py) | Script find-replace buat jamin zero em-dash di output final. Instruksi ke AI gak pernah 100% reliable, ini post-processing yang pasti, tanpa panggil AI lagi (nol token) |
 
 ## Platform yang Didukung
 
