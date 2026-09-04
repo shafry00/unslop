@@ -1,6 +1,6 @@
 ---
 name: human-communication-protocol
-description: Rewrite AI agent instructions (AGENTS.md, system prompts, custom instructions) to follow the Human Communication Protocol — makes bot responses sound human instead of robotic. Use when the user asks to "humanize" a bot's tone, fix robotic-sounding responses, or apply this protocol to an agent config file.
+description: Rewrite AI agent instructions (AGENTS.md, system prompts, custom instructions) to follow the Human Communication Protocol. Makes bot responses sound human instead of robotic. Use when the user asks to "humanize" a bot's tone, fix robotic-sounding responses, or apply this protocol to an agent config file.
 ---
 
 # Human Communication Protocol Skill
