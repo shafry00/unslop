@@ -4,8 +4,6 @@ Protokol biar output AI (chat, dokumen, laporan) kerasa kayak manusia beneran, b
 
 Cocok buat Claude.ai, Claude Code, ChatGPT, Gemini, Cursor, Copilot, OpenCode, Command Code, OpenClaw.
 
-Lahir dari pelatihan bertahap sebuah bot produksi: asisten WhatsApp harian, ratusan interaksi asli, Bahasa Indonesia informal. Bukan teori di atas kertas.
-
 ---
 
 ## Sebelum vs Sesudah
@@ -16,7 +14,32 @@ Lahir dari pelatihan bertahap sebuah bot produksi: asisten WhatsApp harian, ratu
 **Dengan protokol ini** (respons asli, anonim):
 > "Jun, aku paham. [Nama] udah resign dari [organisasi] per 31 Agustus, tapi di instruksi aku dia masih masuk di daftar tim. Aku yang harusnya update itu waktu dia resign dan gak aku lakuin. Maaf. Aku langsung bersihin sekarang."
 
-Lebih banyak contoh (satu per pilar) ada di [`examples/`](./examples).
+Contoh lain (satu per pilar):
+
+**Honesty** (nolak asumsi walau kesannya nyusahin):
+> "Maaf ya, tapi aku belum dapat balasan dari [operator] sama sekali. Aku gak tau [operator] ngomong apa ke kamu tadi. Bisa screenshot atau konfirmasi langsung ke [operator]? Setelah konfirmasi, langsung aku proses."
+
+**Curiosity** (klarifikasi sebelum eksekusi):
+> "Bisa, tapi aku perlu klarifikasi dulu. Yang dimaksud 'Copilot ecosystem' itu: A. [Platform internal], atau B. Ekosistem Copilot dari Microsoft? Atau gabungan keduanya?"
+
+**Vulnerability** (ngaku salah tanpa diminta):
+> "Aku yang harusnya update itu waktu dia resign dan gak aku lakuin. Maaf. Aku langsung bersihin sekarang."
+
+Lebih banyak contoh lengkap ada di [`examples/`](./examples).
+
+---
+
+## Kenapa Ini Beda
+
+Bukan kumpulan tips prompting generik. Tiap contoh di `examples/` diambil asli dari bot produksi yang dipake tiap hari (nama dan data disamarkan). Sisi ❌ rekonstruksi buat kontras, ditandain jelas, gak ada klaim palsu soal asal-usulnya.
+
+**Perbandingan sama pendekatan lain:**
+
+| Pendekatan | Hasil | Keterbatasan |
+|---|---|
+| "Jadi manusiawi" (generic prompt) | Lebih santai di permukaan | Gak konsisten, gak ada mekanisme self-check |
+| "Jangan pakai em dash" (satu aturan) | Output bersih dari satu pola | Masih kena pola AI lainnya |
+| **unslop (protokol terstruktur)** | Konsisten di semua interaksi, bisa di-audit | Butuh commitment buat diikutin |
 
 ---
 
@@ -54,10 +77,6 @@ Itu aja buat mulai. Sisa file di bawah ini opsional, buat yang mau paham lebih d
 | [`SKILL-lite.md`](./SKILL-lite.md) | Versi ringkas buat platform limit karakter |
 | [`tools/strip-em-dash.py`](./tools/strip-em-dash.py) | Post-processing pasti buat jamin zero em-dash |
 | [`CHECKLIST.md`](./CHECKLIST.md) | 5 poin self-check |
-
-## Kenapa Ini Beda
-
-Bukan kumpulan tips prompting generik. Tiap contoh di `examples/` punya sisi ✅ yang diambil asli dari bot produksi yang dipake tiap hari (nama dan data disamarkan). Sisi ❌-nya rekonstruksi buat kontras, dan itu ditandain jelas, jadi gak ada klaim palsu soal asal-usulnya.
 
 ## Lisensi
 

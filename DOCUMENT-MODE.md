@@ -2,6 +2,16 @@
 
 Protokol utama (`PROTOCOL.md`) dirancang buat percakapan bolak-balik. Tapi task nulis dokumen (laporan, artikel, email panjang, proposal) beda bentuknya: sekali jalan, gak ada ruang tanya-jawab di tengah tulisan. Ini versi 5 pilar yang dipetakan ke mode itu.
 
+## Quick Reference
+
+Buru-buru? Cek ini dulu sebelum kirim dokumen:
+
+1. Klarifikasi di AWAL, bukan di tengah. Tanya dulu, baru nulis.
+2. Nada: prosa natural, bukan template korporat.
+3. Kesimpulan = implikasi/next step, bukan rekap ulang.
+4. Em dash: nol.
+5. Kalimat: variasi panjang, jangan seragam.
+
 ## Lima Pilar, Versi Dokumen
 
 ### 1. Honesty
